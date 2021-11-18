@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="personal-portfolio.css">
+        <title>
+            Personal Portfolio
+        </title>
+    </head>
+    <body>
+<!--Navigation bar -->
+        <nav id=navbar class=nav>
+            <ul class=nav-link>
+                <li><a href=#about>About</a></li>
+                <li><a href=#projects>Projects</a></li>
+                <li><a href=#contact>Contact</a></li>
+            </ul>
+        </nav>
+<!--Welcome Section-->
+        <section id=welcome-section class=welcome-section>
+            <h1>Hi,</h1>
+            <h1>I'm <name>Akshay</name></h1>
+            <p>STUDENT</p>
+            <a href=#contact class=contact-button>Contact Me</a>
+            </button>
+        </section>
+<!--About Me Section-->
+        <section id=about class=about-section>
+            <h2>About Me</h2>
+            <p>I am a <text>Student</text> Pursued in <text>Computer Science Engineering , Coimbatore</text>. I have a strong passion for <text>code</text> and exceptional abilities in <text>Problem Solving</text>. I have experience using <text>HTML, CSS</text>.<p>
+            <a href="https://www.freecodecamp.org/fcc6f5a8a75-b8ba-44cd-90af-e62475a845df" target="_blank" id=profile-link> 
+            <img class=profile-picture src="/profile.jpeg" alt="picture of myself">
+            </a>
+        </section>
+
+<!--Contact-->
+        <section id=contact class=contact-section>
+            <h2 class=contact-section-header>Contact Me!</h2>
+            <div class=contact-container>
+                <form id=contact-form>
+                    <input type=text id=name class=contact-input  placeholder="Your Name" required>
+                    <input type=text id=email class=contact-input placeholder="Email" required>
+                    <textarea id=textarea class=contact-input rows=10 cols=18 placeholder="Message" required></textarea>
+                    <button type=submit form=contact-form class=contact-input value=submit>Send</button>
+                </form>
+                <div class=contact-information>
+                    <p class=address><span>Sri Ramakrishna Institute of Technology, Coimbatore</span></p>
+                    <p class=phone><span>5486932148</span></p>
+                    <p class=email><span>akshay.1902008@srit.org</span></p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
